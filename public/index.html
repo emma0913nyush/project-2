@@ -30,21 +30,35 @@
   </form>
 
   <!-- brush size slider -->
-  <div class ="slider">
-    <label for="brush">Choose brush sizes</label>
-  </div>
+  <div class="allSlider">
     
-  <input type="range" min="10" max="100" value="30" class="slider" id="myRange">
+    <div class ="child">
+      <div class="childinner"><label for="brush">Choose brush sizes</label></div>
+    </div>
 
-  <div class="value"> 
-    <p>Value: <span id="demo"></span></p>
+    <div class="child"> 
+      <div class="childinner"><input type="range" min="10" max="100" value="30" class="slider" id="myRange"></div>
+   </div>
+
+    <div class="child"> 
+      <div class="value"><p>Value: <span id="demo"></span></p></div>
+    </div>
+
   </div>
-  
+
+  <div class="direction" id="direction"></div>
+
+  <button class="button" id="gameStart">Begin drawing</button>
+  <div class="countdown" id="countdown"></div>
+  <div class ="box1" id="canvas-container1"></div>
+
+
+  <ul class="users-list" id="users-list"></ul>
+
   <script type="text/javascript" src="/socket.io/socket.io.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
   <script src="app.js"></script>
 
-  <div class ="box1" id="canvas-container1"></div>
-  <div class ="box2" id="canvas-container2"></div>
+
 </body>
 </html>

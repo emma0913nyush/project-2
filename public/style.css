@@ -6,29 +6,69 @@ body {
 }
 
 .colort{
-  margin-left: 20%;
+  margin-left: 15%;
   margin-bottom: 1%;
 }
+.allSlider{
+  display: table;
+  margin-left: 15%;
+}
+.child{
+  display: table-cell;
+
+}
+
+.child:first-child .childinner{
+  margin-left: 0px;
+  margin-bottom: 15%;
+}
+
 .slider{
   margin-left: 20%;
 }
 .title{
-  color:blueviolet;
-  font-size: 30px;  
-  margin-bottom: 1%;
-  margin-left: 20%;
+  color:black;
+  font-size: 25px;  
+  margin-left: 15%;
 }
 .subtitle{
   margin-bottom: 3%;
-  margin-left: 20%;
+  margin-left: 15%;
   color:grey;
 }
 .value{
-  margin-left: 20%;
+  margin-left: 35px;
   color:grey;
   font-size:12px;
 }
 .box1{
-  margin-left: 20%;
+  margin-left: 15%;
+}
+.direction{
+  color:blueviolet;
+  margin-left: 15%;
+  margin-bottom:3%;
+
+}
+.button{
+  margin-left:15%;
+  width:15%;
+  display:block;
+  background-color:rgb(44, 111, 255);
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 1%;
+}
+
+.countdown{
+  margin-left: 45%;
+  margin-bottom: 1%;
+  color:black;
+  font-size: 22px;
 }
 
